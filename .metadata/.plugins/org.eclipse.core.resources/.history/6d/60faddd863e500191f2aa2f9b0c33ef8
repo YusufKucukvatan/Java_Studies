@@ -1,0 +1,38 @@
+package day29_ReturnMethods;
+
+public class returnStatement {
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		if (true) {
+			//return;
+		}
+		System.out.println("Hola"); // Dead code. It will be never printed...
+
+		for (int i = 0; i < 5; i++) {
+			if (i == 3) {
+				break;
+			}
+			System.out.println(i);
+		}
+		int a=3;
+		int b=5;
+		sum(a, b);
+		
+		double e=2;
+		double f=3;
+		sum(e, f);
+	}
+
+	private static double sum(double e, double f) {
+		System.out.println(e+f);
+		return e+f;
+	}
+
+	private static int sum(int a, int b) {
+		int result=a+b;
+		boolean d=false;
+		System.out.println(result);
+		return result;
+	}
+
+}

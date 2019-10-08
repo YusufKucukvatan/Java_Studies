@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;OccurenceOfLetters.java&apos; to &apos;Summer2019_Java/Self_Practice/Loops&apos;&#x0A;- Original project: &apos;Summer2019_Java&apos;&#x0A;- Destination element: &apos;Summer2019_Java/Self_Practice/Loops&apos;&#x0A;- Original element: &apos;day29_ReturnMethods.OccurenceOfLetters.java&apos;" description="Copy compilation unit" destination="/Self_Practice&lt;Loops" element1="/src&lt;day29_ReturnMethods{OccurenceOfLetters.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1569860844620" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,28 @@
+package day30_ArrayList;
+
+public class WarmUp {
+	public static void main(String[] args) {
+		String str = "AAAAaaaBBBBbbbCCcccccDddzXVNM";
+		removeDup(str);
+	}
+
+	public static void removeDup(String str) {
+		String str2 = "";
+		for (char i = 0; i < 128; i++) {
+			int count = 0;
+			for (int j = 0; j < str.length(); j++) {
+				if (i == str.charAt(j)) {
+					count++;
+				}
+			}
+			if(count==1) {
+				System.out.println(i+" is a unique character within the string.");	
+			}
+			if (count > 1) {
+			System.out.println(i+" occures "+count+" times within the string.");
+				str2 += i;
+			}
+		}
+		System.out.println("Word after removing duplication is: "+str2);
+	}
+}

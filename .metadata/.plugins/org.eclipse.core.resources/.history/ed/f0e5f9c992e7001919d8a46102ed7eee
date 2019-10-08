@@ -1,0 +1,18 @@
+package TutorialWeek3;
+
+public class RepetUgur {
+	public static void main(String[] args) {
+		String str="book jhsdbfjbook fkjsdhfd book ajhdbsj book";
+		String x="";
+		int count=0;
+		for (int i = 0; i < str.length()-3; i++) {
+		x+=str.charAt(i);
+			if(!x.contains("book")) {
+				
+				count++;
+			}
+		}
+		System.out.println(count);
+	}
+
+}

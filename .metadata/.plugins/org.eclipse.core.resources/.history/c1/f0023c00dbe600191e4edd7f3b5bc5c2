@@ -1,0 +1,20 @@
+package day32_Review;
+
+public class Quiz {
+	public static void main(String[] args) {
+		byte a=2;
+		int c=3;
+		String str=String.valueOf(a);
+		System.out.println(str+1);
+		Integer d=Integer.valueOf(str);
+		//ouble e=Integer.valueOf(str);
+		int f=Integer.valueOf(str);
+		int g=Integer.parseInt(str);
+		int h=Byte.parseByte(str);
+		int q=321;
+		String s1=String.valueOf(q);
+		System.out.println(s1);
+
+	}
+
+}

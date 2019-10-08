@@ -1,0 +1,49 @@
+package TutorialWeek3;
+
+import java.util.ArrayList;
+
+public class ArrayListPractice {
+	public static void main(String[] args) {
+		ArrayList<Integer> numbers=new ArrayList<>();
+		numbers.add(4);
+		numbers.add(7);
+		numbers.add(2);
+		numbers.add(9);
+		numbers.add(3);
+		System.out.println(numbers);
+		System.out.println(numbers.size());
+		
+		numbers.add(8);
+		System.out.println(numbers.size());
+		numbers.add(0, 1);
+		System.out.println(numbers);
+		numbers.add(2, 123);
+		System.out.println(numbers);
+		
+		
+		numbers.remove(2);
+		System.out.println(numbers);
+		
+		System.out.println(numbers.get(2));
+		System.out.println(numbers.get(0));
+		System.out.println(numbers.get(numbers.size()-1));
+		
+		numbers.clear();
+		System.out.println(numbers);
+		
+		ArrayList<Integer> myList=new ArrayList<>();
+		int n=40;
+		for (int i = 20; i >= 1; i--) {
+			if(i%2==0)
+			myList.add(i);
+		}
+		System.out.println(myList);
+		for(int each : myList) {
+			System.out.print(each+"  ");
+		}
+		System.out.println();
+		myList.clear();
+		System.out.println(myList);
+	}
+
+}

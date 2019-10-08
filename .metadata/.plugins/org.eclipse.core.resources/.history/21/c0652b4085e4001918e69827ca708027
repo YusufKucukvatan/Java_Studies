@@ -1,0 +1,28 @@
+package day30_ArrayList;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ArrayListPractice {
+	public static void main(String[] args) {
+		ArrayList<String> nameList=new ArrayList<>();
+		nameList.add("Murat");
+		nameList.add("Defne");
+		nameList.add("Ela");
+		System.out.println(nameList);
+		System.out.println(nameList.get(1));
+		
+
+		Scanner scan=new Scanner(System.in);
+		ArrayList<String> studentNames=new ArrayList<>();
+		System.out.println("Do you Want to add value? ");
+		String answer=scan.next();
+		if(answer.equalsIgnoreCase("evet"))
+		for (int i = 0; i < nameList.size(); i++) {
+			System.out.println("Do you Want to add value? ");
+			answer=scan.next();
+			if(answer.equalsIgnoreCase("evet"))
+			studentNames.add(scan.next());
+		}
+	}
+}

@@ -1,0 +1,13 @@
+package TutorialWeek3;
+
+public class ValueOfMethod {
+	public static void main(String[] args) {
+		String str1="152";
+		int num1=Integer.valueOf(str1);    //==> Unboxing/Auto-boxing?
+		System.out.println(num1+2);
+		Integer num2=Integer.valueOf(str1);//==> Unboxing/Auto-boxing?
+		
+		
+	}
+
+}

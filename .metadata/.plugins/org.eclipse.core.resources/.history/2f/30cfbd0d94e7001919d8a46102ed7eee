@@ -1,0 +1,26 @@
+package TutorialWeek3;
+
+public class RepetUgur {
+	public static void main(String[] args) {
+		String str="bookbook jhsdbfjbook fkjsdhfd book ajhdbsj book bookbook";
+		str=str.replace(" ", "");
+		int count=0;
+//		for (int i = 0; i < str.length(); i++) {
+//		x+=str.charAt(i);
+//			if(x.endsWith("book")) {
+//				
+//				count++;
+//			}
+//		}
+//		System.out.println(count);
+		
+		for (int i = 0; i < str.length(); i++) {
+			if(str.contains("book")) {
+					count++;
+		}
+			str=str.replaceFirst("book", "");
+	}
+		System.out.println(count);
+
+}
+}

@@ -1,0 +1,14 @@
+package TutorialWeek3;
+
+import java.util.ArrayList;
+
+public class MehmetAyaz1 {
+	public static void main(String[] args) {
+		
+		int[] numbers=new int[6];
+		ArrayList<String> myList=new ArrayList<>();
+		myList.add("Murat");
+		System.out.println(myList);
+		
+	}
+}

@@ -1,0 +1,14 @@
+package TutorialWeek3;
+
+public class Loops {
+public static void main(String[] args) {
+	
+}
+}
+
+// traverse
+// 
+// Prime numbers
+// adding names
+// Letter frequency
+// Sorting without sort method

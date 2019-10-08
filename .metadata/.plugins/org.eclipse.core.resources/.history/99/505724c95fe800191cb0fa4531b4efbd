@@ -1,0 +1,45 @@
+package Loops;
+
+import java.util.Scanner;
+
+public class ATM_Machine {
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int count=0;
+		do {
+			System.out.print("Please enter your PIN: ");
+			int pin=scan.nextInt();
+			while(pin!=1234) {
+				count++;
+				if(count==3) {
+					System.err.println("You have entered 3 incorrect PIN. Please contact your customer assistant.");
+					return;
+				}
+				System.err.print("Please enter the correct PIN: ");
+				pin=scan.nextInt();
+			}
+			System.out.println("Welcome to CyberBank. Please choose your transaction type: ");
+			System.out.println("1: Withdraw money");
+			System.out.println("2: Deposit money");
+			System.out.println("3: Transfer money");
+			System.out.println("4: Return debit card");
+			int action=scan.nextInt();
+			if(action==1) {
+				
+			}
+			if(action==2) {
+				
+			}
+			if(action==3) {
+				
+			}
+			if(action==3) {
+				
+			}
+			
+		}while(true);
+	}
+	
+	
+
+}

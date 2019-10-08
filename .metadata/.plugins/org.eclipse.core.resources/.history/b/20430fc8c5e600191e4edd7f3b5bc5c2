@@ -1,0 +1,20 @@
+package day32_Review;
+
+public class Quiz {
+	public static void main(String[] args) {
+		sum(10,20);
+		byte a=5;
+		byte b=2;
+		sum(a, b);
+	}
+
+	private static void sum(int i, int j) {
+		System.out.println(i+j);
+		
+	}
+	private static void sum(byte i, byte j) {
+		System.out.println(j-i);
+		
+	}
+
+}

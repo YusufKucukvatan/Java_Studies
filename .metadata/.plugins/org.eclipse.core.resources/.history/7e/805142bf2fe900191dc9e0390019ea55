@@ -1,0 +1,17 @@
+package day33_Methods_ArrayList;
+import java.util.ArrayList;
+public class arrayList {
+public static void main(String[] args) {
+	ArrayList<String> names=new ArrayList();
+	names.add("Yusuf");
+	names.add("Betul");
+	names.add("Defne");
+	names.add("Ela");
+	names.add(2,"Murat");
+	System.out.println(names);
+	System.out.println(names.get(3));
+	for(String each:names) {
+		System.out.println(each);
+	}
+}
+}

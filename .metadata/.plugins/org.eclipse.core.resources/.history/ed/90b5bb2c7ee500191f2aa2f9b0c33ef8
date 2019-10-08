@@ -1,0 +1,34 @@
+package TutorialWeek3;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+
+public class MehmetAyaz1 {
+	public static void main(String[] args) {
+		
+		int[] numbers=new int[6];
+		ArrayList<String> myList=new ArrayList<>();
+		myList.add("Murat");
+		myList.add("Defne Ela");
+		myList.add("Fatih");
+		myList.add("Yusuf");
+		myList.add("Meric");
+		
+		System.out.println(myList);
+		System.out.println(myList.size());
+		System.out.println(numbers[0]);
+		System.out.println(myList.get(1));
+		for (int i = 0; i < myList.size(); i++) {
+			System.out.print(myList.get(i)+" ");
+		}
+		System.out.println();
+		System.out.println(myList);
+		Collections.sort(myList);
+		System.out.print(myList);
+		//myList.clear();
+		String str2=myList.get(0).substring(0,2);
+		System.out.println(str2);
+		
+	}
+}

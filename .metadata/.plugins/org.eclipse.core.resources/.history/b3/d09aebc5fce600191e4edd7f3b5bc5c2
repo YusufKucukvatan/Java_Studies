@@ -1,0 +1,73 @@
+package TutorialWeek3;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class ArrayListPractice {
+	public static void main(String[] args) {
+		
+		/*
+		1. Declare an arrayList and print the length of the array,
+		2. initialize some value for ArrayList
+		3. print all of arrayList element at once,
+		4. add a value directly into 3rd index
+		5. remove 5th index,
+		6. completely delete all of indices
+		7. sort them in order
+		8. take input from user with loop
+		
+		*/
+		
+		
+		
+		ArrayList<Integer> numbers=new ArrayList<>();
+		
+		numbers.add(4);
+		numbers.add(5);
+		numbers.add(7);
+		numbers.add(2);
+		numbers.add(1);
+		System.out.println(numbers);
+		numbers.add(9);
+		numbers.add(3);
+		System.out.println(numbers);
+		System.out.println(numbers.size());
+		
+		numbers.add(8);
+		System.out.println(numbers.size());
+		numbers.add(1);
+		System.out.println(numbers);
+		numbers.add(2, 123);
+		System.out.println(numbers);
+		
+		
+		numbers.remove(2);
+		System.out.println(numbers);
+		
+		System.out.println(numbers.get(2));
+		System.out.println(numbers.get(0));
+		System.out.println(numbers.get(numbers.size()-1));
+		
+		numbers.clear();
+		System.out.println(numbers);
+		
+		ArrayList<Integer> myList=new ArrayList<>();
+		for (int i = 20; i >= 1; i--) {
+			if(i%2==0)
+			myList.add(i);
+		}
+		System.out.println(myList);
+		for(int each : myList) {
+			System.out.print(each+"  ");
+		}
+		System.out.println();
+		
+		Collections.sort(myList);
+		System.out.println(myList);
+		
+		
+		myList.clear();
+		System.out.println(myList);
+	}
+
+}

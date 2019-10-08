@@ -1,0 +1,24 @@
+package Loops;
+
+public class OccurenceOfLetters {
+	public static void main(String[] args) {
+		String str = "XXYYYZZZZZaa@@@##$$$$$989898aacvbnmlkj";
+		String nonDuplicates = "";
+		for (char i = 0; i <= 127; i++) {
+			int count = 0;
+			
+			for (int j = 0; j < str.length(); j++) {
+				if (str.charAt(j) == i) {
+					count++;
+				}
+			}
+			if (count == 0)
+				nonDuplicates += i;
+			if (count > 1)
+				System.out.println(i + " occurces " + count + "times");
+		}
+		System.out.println("Non duplicating characters are: " + nonDuplicates);
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package day33_Methods_ArrayList;
+import java.util.ArrayList;
+import java.util.Collections;
+public class arrayList {
+public static void main(String[] args) {
+	ArrayList<String> names=new ArrayList();
+	names.add("Yusuf");
+	names.add("Betul");
+	names.add("Defne");
+	names.add("Ela");
+	names.add(2,"Murat");
+	names.add("Murat");
+	System.out.println(names);
+	System.out.println(names.get(3));
+	for(String each:names) {
+		System.out.print(each+" ");
+	}
+	System.out.println();
+	for (int i = 0; i < names.size(); i++) {
+		System.out.print(names.get(i)+" ");
+	}
+	System.out.println();
+	for (int i = names.size()-1; i>=0; i--) {
+		System.out.print(names.get(i)+" ");
+	}
+	Collections.sort(names);
+}
+}

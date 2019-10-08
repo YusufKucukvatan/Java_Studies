@@ -1,0 +1,26 @@
+package day30_ArrayList;
+
+import java.util.Arrays;
+
+public class WrapperClass {
+	public static void main(String[] args) {
+		int num1=5;
+		Integer num2=7;
+		Integer num3=num1; //==> Auto-Boxing
+		int num4=num2;     //==> Unboxing
+		num1=num4;         //==>Only assignment
+		
+		char ch1='A';
+		Character ch2=ch1; //==>Auto-Boxing
+		char ch3=ch2;      //==>Unboxing
+		
+		Long[] arr=new Long[3];
+		System.out.println(Arrays.toString(arr));     //==> [null, null, null]
+		Integer[] numbers= {1,2,3,4,5};
+		System.out.println(Arrays.toString(numbers)); //==> [1,2,3,4,5]
+		Integer num5=20;
+		System.out.println(num5.MAX_VALUE);
+		
+	}
+
+}

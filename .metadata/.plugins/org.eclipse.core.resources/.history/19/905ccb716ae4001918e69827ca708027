@@ -1,0 +1,16 @@
+package day30_ArrayList;
+
+public class ParseMethod {
+	public static void main(String[] args) {
+		Integer num1=Integer.parseInt("123");  //==> Auto-Boxing
+		System.out.println(num1+5);   		   //==>128
+		int num2=Integer.parseInt("123");	   //==>none
+		int num3=Byte.parseByte("270");
+		System.out.println(num3+2);   		   //==>29
+		byte bnum=(byte)Byte.parseByte("200");
+		System.out.println(bnum+1);   		   //==>29
+		
+		
+	}
+
+}

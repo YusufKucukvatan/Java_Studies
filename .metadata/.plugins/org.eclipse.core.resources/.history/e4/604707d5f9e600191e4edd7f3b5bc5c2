@@ -1,0 +1,11 @@
+package TutorialWeek3;
+
+public class Triangles {
+	public static void main(String[] args) {
+		int num = 5;
+		
+		
+		
+	}
+
+}

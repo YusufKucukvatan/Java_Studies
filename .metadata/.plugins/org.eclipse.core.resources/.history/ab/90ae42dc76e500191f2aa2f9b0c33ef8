@@ -1,0 +1,20 @@
+package TutorialWeek3;
+
+import java.util.ArrayList;
+
+public class MehmetAyaz1 {
+	public static void main(String[] args) {
+		
+		int[] numbers=new int[6];
+		ArrayList<String> myList=new ArrayList<>();
+		myList.add("Murat");
+		myList.add("Defne Ela");
+		myList.add("3");
+		System.out.println(myList);
+		System.out.println(myList.size());
+		System.out.println(numbers[0]);
+		System.out.println(myList.get(1));
+		myList.clear();
+		
+	}
+}

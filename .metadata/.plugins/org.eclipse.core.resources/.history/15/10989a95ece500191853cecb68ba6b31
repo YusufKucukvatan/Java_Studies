@@ -1,0 +1,14 @@
+package day31_ArrayList_WrapperClass;
+
+import java.util.Arrays;
+
+public class ArrayReview {
+	public static void main(String[] args) {
+		int[] arr1= {10};
+		System.out.println(Arrays.toString(arr1));
+		int[] arr2=new int[2];
+		
+		
+	}
+
+}

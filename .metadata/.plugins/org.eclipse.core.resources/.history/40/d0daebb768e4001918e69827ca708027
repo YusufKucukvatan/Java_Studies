@@ -1,0 +1,9 @@
+package day30_ArrayList;
+
+public class ParseMethod {
+	public static void main(String[] args) {
+		Integer num1=Integer.parseInt("123");
+		System.out.println(num1+1);
+	}
+
+}

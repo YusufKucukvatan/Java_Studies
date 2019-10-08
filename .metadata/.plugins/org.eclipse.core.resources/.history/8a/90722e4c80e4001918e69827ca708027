@@ -1,0 +1,14 @@
+package day30_ArrayList;
+
+import java.util.ArrayList;
+
+public class ArrayListClass {
+	public static void main(String[] args) {
+		ArrayList<Integer> list1=new ArrayList<>();
+		ArrayList<Integer> list2=new ArrayList<Integer>();
+		System.out.println(list2);
+		
+		
+	}
+
+}

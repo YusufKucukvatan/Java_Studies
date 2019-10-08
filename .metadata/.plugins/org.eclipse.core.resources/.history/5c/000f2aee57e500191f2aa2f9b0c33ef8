@@ -1,0 +1,27 @@
+package TutorialWeek3;
+
+public class ValueOfMethod {
+	public static void main(String[] args) {
+		String str1="152";
+		int num1=Integer.valueOf(str1);    //==> Unboxing/Auto-boxing?
+		Integer num2=Integer.valueOf(str1);//==> Unboxing/Auto-boxing?
+		System.out.println(num1+2);
+		System.out.println(num2+2);
+		
+		int num3=2019;
+		String str3=String.valueOf(num3);
+		System.out.println(str3+1);
+		
+		boolean b4=4>3;
+		String str4=String.valueOf(b4);
+		System.out.println(str4);
+		
+		char ch5='A';
+		String str5=String.valueOf(ch5);
+		System.out.println(str5);
+		
+		
+		
+	}
+
+}

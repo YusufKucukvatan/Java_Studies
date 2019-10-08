@@ -1,0 +1,14 @@
+package day30_ArrayList;
+
+import java.util.ArrayList;
+
+public class ArrayListPractice2 {
+	public static void main(String[] args) {
+		ArrayList<Integer> list=new ArrayList<>();
+		for (int i = 0; i <= 40; i++) {
+			if(i%2==0)
+				list.add(i);
+		}
+		System.out.println(list);
+	}
+}

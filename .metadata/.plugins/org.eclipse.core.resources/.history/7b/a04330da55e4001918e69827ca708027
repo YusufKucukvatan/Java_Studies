@@ -1,0 +1,24 @@
+package day30_ArrayList;
+
+public class WarmUp {
+	public static void main(String[] args) {
+		String dup="aaabbbcccccdd";
+		removeDup(dup);
+	}
+
+	public static void removeDup(String str) {
+		int count=0;
+		String str2="";
+		for (char i = 0; i < 128; i++) {
+			for (int j = 0; j < str.length(); j++) {
+				if(i==str.charAt(j)) {
+					count++;
+				}
+			}
+			if(count>1) {
+				str2+=i;
+			}
+		}
+		System.out.println(str2);
+	}
+}

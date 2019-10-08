@@ -1,0 +1,21 @@
+package Assignments;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Repl_it {
+	
+		  public static void main(String[] args) {
+		      
+		      cube();
+		  }
+		  
+		  public static void cube(){
+		  Scanner scan=new Scanner(System.in);  
+		  int num1=scan.nextInt();
+		  int result=num1*num1*num1;
+		  System.out.println(result);
+		  
+	}
+
+}

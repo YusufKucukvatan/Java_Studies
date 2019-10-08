@@ -1,0 +1,29 @@
+package Assignments;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Repl_it {
+	public static int[] mergR(int[] a,int[] b) {
+	    int[] test=new int[(a.length+b.length)];
+	    for(int i=0; i<a.length; i++){
+	      test[i]=a[i];
+	    }
+	    for(int i=a.length; i<test.length; i++){
+	      test[i]=b[i];
+	    }
+	    System.out.println(Arrays.toString(test));
+	    return test;
+	   
+	    
+	  }
+	  
+	  public static void main(String[] args) 
+	  {
+	   int[] a= {1,2,3,4};
+	   int[] b= {7,8,9};
+	   mergR(a,b);
+	  }
+	}
+
+

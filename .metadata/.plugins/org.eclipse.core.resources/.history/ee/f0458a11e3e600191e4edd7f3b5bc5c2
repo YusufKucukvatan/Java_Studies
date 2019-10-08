@@ -1,0 +1,18 @@
+package TutorialWeek3;
+
+public class OverLoading {
+	public static void main(String[] args) {
+		int a=4;
+		int b=5;
+		sum(a,b);
+		sum(3,6);
+		
+	}
+
+	private static void sum(int a, int b) {
+		int sum=a+b;
+		System.out.println(sum);
+	}
+	
+
+}

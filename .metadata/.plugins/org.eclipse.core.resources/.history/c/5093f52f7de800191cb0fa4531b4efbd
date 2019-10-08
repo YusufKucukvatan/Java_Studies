@@ -1,0 +1,18 @@
+package Assignments;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Repl_it {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String[] str = { scan.next(), scan.next(), scan.next(), scan.next(), scan.next(), scan.next() };
+		String min="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+		for (int i = 0; i < str.length; i++) {
+			if (str[i].length()<min.length()) {
+				min=str[i];
+			}
+		}
+		System.out.println(min);
+	}
+}

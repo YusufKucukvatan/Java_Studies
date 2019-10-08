@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/yusufkucukvatan/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+3128207647.index
+1142894888.index
+3790383071.index

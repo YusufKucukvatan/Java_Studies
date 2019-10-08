@@ -1,0 +1,21 @@
+package TutorialWeek3;
+
+import java.util.ArrayList;
+
+public class MehmetAyaz1 {
+	public static void main(String[] args) {
+		
+		ArrayList<Boolean> b1=new ArrayList<>();
+		ArrayList<Integer> i1=new ArrayList<>();
+		ArrayList<Character> ch1=new ArrayList<>();
+//		b1.add(false);
+		i1.add(328);
+		i1.add(329);
+		i1.add(327);
+//		i1.add(326);
+//		i1.add(32);
+//		i1.add(3);
+//		i1.add(28);
+		System.out.println(i1);
+	}
+}

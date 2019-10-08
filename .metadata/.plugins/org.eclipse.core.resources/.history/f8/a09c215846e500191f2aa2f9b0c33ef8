@@ -1,0 +1,8 @@
+package TutorialWeek3;
+
+public class ValueOfMethod {
+	public static void main(String[] args) {
+		
+	}
+
+}

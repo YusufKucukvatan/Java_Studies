@@ -1,0 +1,12 @@
+package day32_Review;
+
+public class Quiz {
+	public static void main(String[] args) {
+		byte a=2;
+		int c=3;
+		String str=String.valueOf(a);
+		System.out.println(str);
+
+	}
+
+}

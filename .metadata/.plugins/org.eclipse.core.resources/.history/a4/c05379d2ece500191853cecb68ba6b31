@@ -1,0 +1,13 @@
+package day31_ArrayList_WrapperClass;
+
+import java.util.Arrays;
+
+public class ArrayReview {
+	public static void main(String[] args) {
+		
+		String[] cars= {"sfds","dfgdf","asdsd","sdfsdf","fghgh"};
+		Arrays.parallelSort(cars);
+		System.out.println(Arrays.toString(cars));
+		
+	}
+}

@@ -1,0 +1,19 @@
+package day29_ReturnMethods;
+
+public class MethodOverLoading {
+	public static void main(String[] args) {
+		int num1=sum(3,5);
+		System.out.println(num1);
+		int num2=sum(1,2,4);
+		System.out.println(num2);
+	}
+	public static int sum(int a, int b) {
+		return a+b;
+	}
+	
+	public static int sum(int a, int b, int c) {
+		return a+b*c;
+	}
+	
+
+}
