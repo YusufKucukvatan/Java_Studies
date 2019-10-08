@@ -1,3 +1,6 @@
-GitRepositoriesView.GitDirectories=/Users/yusufkucukvatan/git/Cybertek_Yusuf/.git\:/Users/yusufkucukvatan/CollectionIntro/.git\:
-GitRepositoriesView.GitDirectories.relative=/Users/yusufkucukvatan/git/Cybertek_Yusuf/.git\:/Users/yusufkucukvatan/CollectionIntro/.git\:
+GitRepositoriesView.GitDirectories=/Users/yusufkucukvatan/git/Cybertek_Yusuf/.git\:/Users/yusufkucukvatan/eclipse-workspace/.git\:/Users/yusufkucukvatan/CollectionIntro/.git\:
+GitRepositoriesView.GitDirectories.relative=/Users/yusufkucukvatan/git/Cybertek_Yusuf/.git\:.git\:/Users/yusufkucukvatan/CollectionIntro/.git\:
+RepositorySearchDialogDeepSearch=false
+RepositorySearchDialogSearchPath=/Users/yusufkucukvatan/eclipse-workspace
+RepositorySearchDialogSkipHidden=true
 eclipse.preferences.version=1
