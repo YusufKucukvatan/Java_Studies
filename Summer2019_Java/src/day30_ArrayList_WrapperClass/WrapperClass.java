@@ -3,7 +3,6 @@ package day30_ArrayList_WrapperClass;
 import java.util.Arrays;
 
 
-import java.util.Arrays;
 public class WrapperClass {
     /*
           primitives                     wrapper-class : classes that are dedicated to primitives
@@ -24,7 +23,7 @@ public class WrapperClass {
                     char ==> space
                     
                     
-     Default value of wrapper class:  null
+     Default value of wrapper class:  null (All object are null)
             
      If we do not give any objects to class (reference) null will be given by defualt
             
@@ -47,8 +46,13 @@ public class WrapperClass {
         Integer num7=Integer.parseInt(str19); //==>parseInt creates primitive type value
         Integer num8=Integer.valueOf(str19); //==>valueOf creates wrapper class object
         int num9=num8;
+        int num22=num1.MAX_VALUE;
+        int x = Integer.MAX_VALUE;
+        System.out.println(x);
+
         double numdouble = 5.5;
         Double numDouble = 5.5;
+        System.out.println(numDouble);
         
         long longnum  = 20L;
         Long Longnum = longnum;   // Auto-Boxing
@@ -71,18 +75,16 @@ public class WrapperClass {
         System.out.println(ch5);
         
         
-        Boolean[] arr =new Boolean[3];  // [0, 0, 0]
-        System.out.println(Arrays.toString(arr));
+        Boolean[] arr1 =new Boolean[3];  // [null, null, null]
+        boolean[] arr2 =new boolean[3];  // [null, null, null]
+        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr2));
         int num12 = 10;
-        //num1.MAX_VALUE();  //primitives does not have methods, variable num1 is not a reference of an object
-        int num22=num1.MAX_VALUE;
         System.out.println("fff");
         System.out.println(num22);
         Integer num21 =20;
         int num3=5;
-        int x = Integer.MAX_VALUE;
         
-        System.out.println(x);
         System.out.println(Byte.MAX_VALUE);
         System.out.println(Short.MAX_VALUE);
         System.out.println(Integer.MAX_VALUE);

@@ -15,32 +15,14 @@ public class ArrayMethods {
 		 5.how to find whether two array is equal or not (Arrays.equals method)
 		 
 		 */
-		String name1 = "Ekrem Osman Fatih Mehmet Yasin";
-		int[] numbers = { 4, 7, 1, 3, 9, 2, 8 };
-		String str="How to convert string to char?";
-		String email1 = "Cyber_tek_school";
-		char[] ch1 = { 'A', 'B', 'C', 'D' };
-		char[] ch2 = { 'E', 'F', 'G', 'H' };
+//		String name1 = "Ekrem Osman Fatih Mehmet Yasin";
+//		int[] numbers = { 4, 7, 1, 3, 9, 2, 8 };
+//		String str="How to convert string to char?";
+//		String email1 = "Cyber_tek_school";
+//		char[] ch1 = { 'A', 'B', 'C', 'D' };
+//		char[] ch2 = { 'E', 'F', 'G', 'H' };
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 //		String name1 = "Ekrem Osman Fatih Mehmet Yasin";
 //		String[] name2 = name1.split(" ");
 //		System.out.println(Arrays.toString(name2));

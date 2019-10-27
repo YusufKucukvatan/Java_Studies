@@ -8,21 +8,16 @@ public class LetterRepetition {
 		System.out.print("Please enter the word: ");
 		String word = scan.nextLine();
 		int length = word.length();
-		// char[] count=new char[127];
-		for (char j = 'A'; j <= 'z'; j++) {
+		for (char i = 'A'; i <= 'z'; i++) {
 			int count = 0;
-			for (int i = 0; i < length; i++) {
-				if (word.charAt(i) == j) {
+			for (int j = 0; j < length; j++) {
+				if (word.charAt(j) == i) {
 					count++;
 				}
-
 			}
 			if (count > 1) {
-				System.out.print("There are " + count + " times ");
-				System.out.println(j);
+				System.out.println("There are " + count + " times "+i);
 			}
 		}
-
 	}
-
 }

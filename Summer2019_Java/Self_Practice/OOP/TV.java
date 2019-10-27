@@ -1,12 +1,13 @@
 package OOP;
 
 public class TV {
+	int channel = 1;
+	int volume = 1;
+	boolean on = false;
+	
 	public TV() {
 	}
 
-	int channel = 1;
-	int volume = 5;
-	boolean on = false;
 
 	public void turnOn() {
 		on = true;

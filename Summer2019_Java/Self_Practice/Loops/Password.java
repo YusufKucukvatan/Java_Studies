@@ -19,12 +19,13 @@ public class Password {
 
 		boolean length = 8 <= password.length() && password.length() <= 20;
 
-		boolean firstChar = 65 <= password.charAt(0) && password.charAt(0) <= 90;
+		boolean firstChar = 'A' <= password.charAt(0) && password.charAt(0) <= 'Z';
 
 		int special = 0;
 		int number = 0;
 		int lowerCase = 0;
 		int upperCase = 0;
+		
 
 		char s = '!'; // Special characters starts at 33 on ASCII Table.
 		int n = '0'; // Numbers starts at 48 on ASCII Table.

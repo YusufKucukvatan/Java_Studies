@@ -19,12 +19,12 @@ public class ArrayPractice {
 		*/
 		
 		
-//		Scanner scan=new Scanner(System.in);
-//		//int[] array=new int[3];
-////		for (int i = 0; i < array.length; i++) {
-////			System.out.println("Please enter number-"+i+": ");
-////			array[i]=scan.nextInt();
-////		}
+		Scanner scan=new Scanner(System.in);
+//		int[] array=new int[3];
+//		for (int i = 0; i < array.length; i++) {
+//			System.out.println("Please enter number-"+i+": ");
+//			array[i]=scan.nextInt();
+//		}
 //		int[] array= {2,3,5};
 //		System.out.println(array.length);
 //		System.out.println(array);
@@ -58,17 +58,8 @@ public class ArrayPractice {
 //		}
 //		
 //		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+//		
+
 //		double[] arr1=new double[20];
 //		System.out.println(arr1.length);
 //		for (int i = 0; i < arr1.length; i++) {

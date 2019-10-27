@@ -12,7 +12,16 @@ public class TestTV {
 		tv1.volumeDown();
 		tv1.volumeDown();
 		tv1.volumeDown();
-
+		tv1.volumeDown();
+		tv1.volumeDown();
+		tv1.volumeDown();
+		tv1.volumeDown();
+		tv1.volumeDown();
+		tv1.volumeUp();
+		tv1.setChannel(99);
+		tv1.channelDown();
+		
+		
 		TV tv2 = new TV();
 		tv2.turnOn();
 		tv2.channelUp();

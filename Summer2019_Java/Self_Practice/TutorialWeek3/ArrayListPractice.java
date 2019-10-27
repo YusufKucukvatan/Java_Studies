@@ -1,6 +1,7 @@
 package TutorialWeek3;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class ArrayListPractice {
@@ -29,7 +30,7 @@ public class ArrayListPractice {
 		numbers.add(0,1);
 		numbers.add(1,2);
 		numbers.add(2,3);
-		numbers.add(50, 1);
+		//numbers.add(50, 1);
 		System.out.println(numbers);
 		numbers.add(9);
 		numbers.add(3);
@@ -72,6 +73,14 @@ public class ArrayListPractice {
 		
 		myList.clear();
 		System.out.println(myList);
+		
+		ArrayList<String> str=new ArrayList<String>();
+		str.addAll(Arrays.asList("Cybertek", "School"));
+		System.out.println(str);
+		
+		str.removeAll(Arrays.asList("Cybertek"));
+		System.out.println(str);
+		
 	}
 
 }
