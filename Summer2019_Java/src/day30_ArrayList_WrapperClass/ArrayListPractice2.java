@@ -24,12 +24,12 @@ public class ArrayListPractice2 {
 		System.out.println(num);
 		
 		list.clear();
-		System.out.println();
+		System.out.println(list.size());
 		//System.out.println(list.get(0));==> Compile error
 		
 		ArrayList<Integer> list2 = new ArrayList<>();
-		for (int i = 20; i >=0; i--) {
-			list2.add(i);
+		for (int i = 0; i <20; i++) {
+			list2.add(i+1);
 			System.out.print(list2.get(i)+" ");
 		}
 		Collections.sort(list2);

@@ -7,7 +7,7 @@ public class WarmUp_1 {
 		Scanner scan=new Scanner(System.in);
 		String a="Yusuf";
 		boolean b=a.charAt(0)==89;
-		if (a.charAt(0)==89)
+		if (b)
 			System.out.println("XXXX");
 		
 		int sum=0;

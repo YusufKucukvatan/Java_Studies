@@ -11,9 +11,9 @@ public class ScannerClass {
 		byte byteNum = input.nextByte();
 		System.out.println("You have entered: "+ byteNum);
 		
-		System.out.println("Enter a Byte Value 2");
-		byte byteNum2 = input.nextByte();
-		System.out.println("You have entered: "+ byteNum2);
+		System.out.println("Enter a Byte Value: ");
+		int intNum = input.nextByte();
+		System.out.println("You have entered: "+ intNum);
 		
 		
 	}

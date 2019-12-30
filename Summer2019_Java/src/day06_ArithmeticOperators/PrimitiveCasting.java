@@ -9,10 +9,10 @@ public class PrimitiveCasting {
 		// int a=10;
 		// byte b=a; //normally it doesnt work like that. int cannot be assigned to byte but if we like below
 		
-		int a=10;
-		byte b=(byte)a;
+		long a=3_294_000_000L;
+		int b=(int)a;
 		
-		System.out.println(b); // ==>10
+		System.out.println(b); // ==>-1 billion
 		
 		int c=128;
 		byte d=(byte)c;
@@ -57,13 +57,17 @@ public class PrimitiveCasting {
 		//byte ByteValue1=(int)LargestNumber; ==> We cannot convert byte to int even the value is within the byte range.
 		int IntValue=(int)LargestNumber;
 		
-		float FloatValue=(byte)LargestNumber; //==> 112
-		float FloatValue1=(short)LargestNumber; //==> 112
-		float FloatValue2=(int)LargestNumber;//==> 112
-		float FloatValue3=(long)LargestNumber;//==> 112
+		float FloatValue=(byte)LargestNumber; //==> 112.0
+		float FloatValue1=(short)LargestNumber; //==> 112.0
+		float FloatValue2=(int)LargestNumber;//==> 112.0
+		float FloatValue3=(long)LargestNumber;//==> 112.0
 		float FloatValue4=(float)LargestNumber;//==> 112.8765
 		//float FloatValue4=(double)LargestNumber;//==> Doesnt Work
-		
+		System.out.println(FloatValue);
+		System.out.println(FloatValue1);
+		System.out.println(FloatValue2);
+		System.out.println(FloatValue3);
+		System.out.println(FloatValue4);
 		
 		float FloatNumber2=500.75F;
 		int myNumber=(int)FloatNumber2; //==>we may convert it to short or int. We cannot convert to byte and long. because byte is limitted to 127, wlong is bigger than int.

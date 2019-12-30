@@ -32,7 +32,7 @@ public class Parse_ValueOf_Method {
 		Boolean b2 = Boolean.parseBoolean(str3);
 		boolean b3 = Boolean.valueOf("false");
 		Boolean b4 = Boolean.valueOf("5>4");
-		System.out.println(b2);
+		System.out.println(b1+"vvvvvv");
 //		
 //		
 		int num8 = 3+2+1;

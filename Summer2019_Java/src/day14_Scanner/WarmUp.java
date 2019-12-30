@@ -11,9 +11,7 @@ public class WarmUp {
 		case "Tuesday":
 			System.out.println("Java class");
 			break;
-		case "Wednesday":
-			System.out.println("SQL class"); // We can also delete this statement and add this case just before Saturday case. So it the as Monday-Tuesday combination.
-			break;							 // So it the as Monday-Tuesday combination.
+									 // So it the as Monday-Tuesday combination.
 		case "Thursday":
 			System.out.println("Java class");
 			break;

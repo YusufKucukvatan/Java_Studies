@@ -17,7 +17,7 @@ public class quiz {
 		System.out.println(ShortNum); //==> 100 (Explicit Casting: Converting larger to smaller)
 		
 		// Q-05
-		// byte x=200; Error ==> We cannot excess the maximum limit of byte which is 127.
+		byte x=100; //Error ==> We cannot excess the maximum limit of byte which is 127.
 		int y=2; 
 		
 		//Q6
@@ -56,9 +56,10 @@ public class quiz {
 		
 		// Q12
 		
-		String str="10.5";
+		String str="10.0";
 		//int num4=(int) str; // ==> Compile Error. Because String is not a Primitive Variable. It cannot be converted to any primitive type.
-		
+		int num4=(int)Double.parseDouble(str);
+		System.out.println(num4);
 		// Q13
 		
 		int I1=10, I2=20, I3=30;

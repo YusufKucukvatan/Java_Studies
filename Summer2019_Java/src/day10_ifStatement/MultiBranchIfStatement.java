@@ -9,11 +9,11 @@ public class MultiBranchIfStatement {
 		System.out.println("if block");
 	}
 	
-	else if (true) {
+	else if (false) {
 		System.out.println("else if block");
 	}
-		else {
-			System.out.println("else block");
+	else {
+		System.out.println("else block");
 		}
 	
 	int grade;

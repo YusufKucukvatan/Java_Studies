@@ -4,7 +4,7 @@ public class NestedIf_Boolean {
 
 	public static void main(String[] args) {
 			
-			int grade = 91;
+			int grade = 50;
 			boolean validgrade= 0<=grade && grade<=100;
 			boolean gradeA=grade>=90;
 			boolean gradeB=grade>=80;
@@ -25,13 +25,14 @@ public class NestedIf_Boolean {
 				}
 				else if (gradeC) {
 				System.out.println("Your grade is C.");
-				}else if (gradeD) {
+				}
+				else if (gradeD) {
 				System.out.println("Your grade is D.");
 				}
 				if (grade>=60) {
 					System.out.println(passed);
 				}
-				else if (gradeF) {
+				else {
 				System.out.println("Your grade is F.");
 				}
 				

@@ -8,7 +8,7 @@ public class WarmUp {
 
 		System.out.print("Please enter the word: ");
 		String word = scan.nextLine();
-		int count = 0;
+		int count;
 		String unique = "";
 		for (int i = 0; i < word.length(); i++) {
 			count = 0;

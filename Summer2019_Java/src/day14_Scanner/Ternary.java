@@ -10,6 +10,7 @@ public class Ternary {
 		} else {
 			num = 50;
 		}
+		
 		System.out.println(num); // ==> Result is 100
 
 		// We are going to convert above statement to the ternary below
@@ -32,6 +33,7 @@ public class Ternary {
 		} else {
 			Schoolname = "Invalid";
 		}
+		
 		System.out.println(Schoolname); // First way
 
 		Schoolname = (Batch12) ? "Cybertek" : "Invalid"; // Second way
@@ -40,7 +42,7 @@ public class Ternary {
 		System.out.println(Batch12 ? "Cybertek" : "Invalid");// Third way
 
 		////////////////////////////////////////////////////////////////////
-
+		
 		double interestRate;
 		boolean GoodCredit = true;
 		interestRate = (GoodCredit == true) ? 0.5 : 0.9;
@@ -62,15 +64,14 @@ public class Ternary {
 		} else if (FinalGrade == 'C') {
 			Group = "Group 2";
 		} else {
-			Group = "After Group 2";
+			Group = "After Group 3";
 		}
-
 		System.out.println(Group);
 
 		Group = (FinalGrade == 'A') ? "Early Bird"
 				: (FinalGrade == 'B') ? "Group 1" 
 						: (FinalGrade == 'C') ? "Group 2"
-								: "After Group 1";
+								: "After Group 3";
 		// Condition If Action else Condition If Action else Condition If Action else
 		// Action
 		System.out.println(Group);
@@ -111,8 +112,8 @@ public class Ternary {
 
 		int num1 = 100, num2 = 200, num3 = 300;
 		int nummax = (num1 > num2 && num1 > num3) ? num1
-
-				: (num2 > num1 && num2 > num3) ? num2 : num3;
+				: (num2 > num1 && num2 > num3) ? num2 
+						: num3;
 		System.out.println(nummax);
 	}
 }

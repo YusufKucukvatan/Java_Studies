@@ -127,7 +127,7 @@ public class arrayList {
 		badGuys.add("Ibrohim");
 		badGuys.add("Dilyar");
 
-		boolean result2 = badGuys.equals(goodGuys); // false
+		boolean result2 = badGuys.equals(goodGuys); // true
 		System.out.println(result2);
 
 		if (goodGuys.contains("Ibrohim")) {
@@ -158,7 +158,7 @@ public class arrayList {
 		lists2.add(5); // auto-boxing index: 4
 
 		// [1, 2, 3, 4, 5]
-		Integer a = 8;
+		Integer a = 1;
 		boolean r1 = lists2.remove(a); // [2, 3, 4, 5]
 
 		System.out.println(lists2);

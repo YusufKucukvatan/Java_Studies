@@ -8,7 +8,8 @@ public class SwitchStatement {
 		 * Switch statement does similar things with multi-branch if statement
 		 * 
 		 * 
-		 * switch (variable name) { case variablevalue: System.out.println("....."); ==>
+		 * switch (variable name) { 
+		 * case variablevalue: System.out.println("....."); ==>
 		 * behaves like else if or if break; ========================> once we put
 		 * break, case behaves like else if. case variablevalue:
 		 * System.out.println("......");==> behaves like else if or if break;
@@ -164,8 +165,8 @@ public class SwitchStatement {
 		case "US":
 			System.out.println("American");
 			break;
-			default:
-				System.out.println("Not American");
+		default:
+			System.out.println("Not American");
 		}
 	}
 }

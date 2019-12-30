@@ -12,11 +12,14 @@ public class ForEachLoop {
 		System.out.println();
 		
 		String[] str1= {"A","B","C"};
-		System.out.println(str1);
+		System.out.println(Arrays.toString(str1));
 		for(String each:str1) {
 			System.out.print(each+" ");
 		}
 		System.out.println();
+		String h="Yusuf1";
+		char[] c=h.toCharArray();
+		System.out.println(c);
 		
 		char[] ch= {'z','x','y','c','a','b'};
 		System.out.println(ch);

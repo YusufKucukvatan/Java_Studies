@@ -25,6 +25,7 @@ public class StringMethods {
 			letter--;
 		}
 		
+		System.out.println("=======================");
 		letter=0;
 		do {
 			System.out.println(mur.charAt(letter));

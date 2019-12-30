@@ -3,7 +3,7 @@ package day33_Methods_ArrayList;
 public class MethodCalling {
     public static void main(String[] args) {
         
-        method1();   // method cannot can it self
+        method1();   // method cannot call it self
         
             int max2 =  max(10, 20);  //20
             System.out.println( max2 );

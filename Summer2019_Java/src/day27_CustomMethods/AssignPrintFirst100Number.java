@@ -24,7 +24,7 @@ public class AssignPrintFirst100Number {
 	}
 	public static void printEvenNumbers(int[] numbers) {
 		for(int each: numbers) {
-			if(each%2!=0)
+			if(each%2==1)
 				continue;
 			System.out.printf("%4d",each);
 			if(each%20==0)

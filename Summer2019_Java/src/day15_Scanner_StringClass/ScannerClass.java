@@ -17,7 +17,7 @@ public class ScannerClass {
 		//System.out.print("Enter your phone: ");
 		//int phone = scan.nextInt();
 		//System.out.println("Your phone is: "+phone);
-		
+
 		System.out.print("enter your first name, middle name and last name: ");
 		String name = scan.nextLine();
 		System.out.println("Your name is: "+name);

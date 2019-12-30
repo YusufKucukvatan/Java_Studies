@@ -9,7 +9,7 @@ public class StringMethods_2 {
  			substring , indexOf, lastIndexOf, replace, replaceFirst
  			equals, equalIgnoreCase,
  			contains, startsWith, endsWith,
- 		charAt, trim, length, concat, isEmpty, toUpperCase, toLowercase
+ 		charAt, trim, length, concat, isEmpty, toUpperCase, toLowercase, isBlank
  			
 	 */
 		
